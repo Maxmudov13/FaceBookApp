@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE116319279EBE1600B99602 /* TwoImagePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE116318279EBE1600B99602 /* TwoImagePost.swift */; };
 		CE133DAE27979D4800A3D516 /* FaceBookAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE133DAD27979D4800A3D516 /* FaceBookAppApp.swift */; };
-		CE133DB027979D4800A3D516 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE133DAF27979D4800A3D516 /* ContentView.swift */; };
+		CE133DB027979D4800A3D516 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE133DAF27979D4800A3D516 /* HomePage.swift */; };
 		CE133DB227979D4800A3D516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE133DB127979D4800A3D516 /* Assets.xcassets */; };
 		CE133DB527979D4800A3D516 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE133DB427979D4800A3D516 /* Preview Assets.xcassets */; };
+		CE133DBF2798B4F900A3D516 /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE133DBE2798B4F900A3D516 /* RoomItem.swift */; };
+		CE133DC12798F4BB00A3D516 /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE133DC02798F4BB00A3D516 /* StoryItem.swift */; };
+		CE133DC32798F99500A3D516 /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE133DC22798F99500A3D516 /* PostItem.swift */; };
+		CE133DC627990A4300A3D516 /* CreateStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE133DC527990A4300A3D516 /* CreateStory.swift */; };
+		CE133DC927990A8100A3D516 /* CreateRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE133DC827990A8100A3D516 /* CreateRoom.swift */; };
+		CE133DCC27990AB100A3D516 /* ProfilePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE133DCB27990AB100A3D516 /* ProfilePost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE116318279EBE1600B99602 /* TwoImagePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoImagePost.swift; sourceTree = "<group>"; };
 		CE133DAA27979D4800A3D516 /* FaceBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE133DAD27979D4800A3D516 /* FaceBookAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookAppApp.swift; sourceTree = "<group>"; };
-		CE133DAF27979D4800A3D516 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE133DAF27979D4800A3D516 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		CE133DB127979D4800A3D516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE133DB427979D4800A3D516 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE133DBE2798B4F900A3D516 /* RoomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
+		CE133DC02798F4BB00A3D516 /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		CE133DC22798F99500A3D516 /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
+		CE133DC527990A4300A3D516 /* CreateStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStory.swift; sourceTree = "<group>"; };
+		CE133DC827990A8100A3D516 /* CreateRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoom.swift; sourceTree = "<group>"; };
+		CE133DCB27990AB100A3D516 /* ProfilePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				CE133DAD27979D4800A3D516 /* FaceBookAppApp.swift */,
-				CE133DAF27979D4800A3D516 /* ContentView.swift */,
-				CE133DB127979D4800A3D516 /* Assets.xcassets */,
+				CE133DBB27979D6500A3D516 /* Screens */,
+				CE133DBD2798B4D600A3D516 /* Cells */,
+				CE133DBC27979D9300A3D516 /* AppUtils */,
 				CE133DB327979D4800A3D516 /* Preview Content */,
 			);
 			path = FaceBookApp;
@@ -65,6 +80,60 @@
 				CE133DB427979D4800A3D516 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE133DBB27979D6500A3D516 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE133DAF27979D4800A3D516 /* HomePage.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CE133DBC27979D9300A3D516 /* AppUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CE133DB127979D4800A3D516 /* Assets.xcassets */,
+			);
+			path = AppUtils;
+			sourceTree = "<group>";
+		};
+		CE133DBD2798B4D600A3D516 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE133DCA27990A8B00A3D516 /* PostItems */,
+				CE133DC727990A5700A3D516 /* RoomItems */,
+				CE133DC427990A2C00A3D516 /* Story */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE133DC427990A2C00A3D516 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				CE133DC527990A4300A3D516 /* CreateStory.swift */,
+				CE133DC02798F4BB00A3D516 /* StoryItem.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		CE133DC727990A5700A3D516 /* RoomItems */ = {
+			isa = PBXGroup;
+			children = (
+				CE133DC827990A8100A3D516 /* CreateRoom.swift */,
+				CE133DBE2798B4F900A3D516 /* RoomItem.swift */,
+			);
+			path = RoomItems;
+			sourceTree = "<group>";
+		};
+		CE133DCA27990A8B00A3D516 /* PostItems */ = {
+			isa = PBXGroup;
+			children = (
+				CE133DC22798F99500A3D516 /* PostItem.swift */,
+				CE116318279EBE1600B99602 /* TwoImagePost.swift */,
+				CE133DCB27990AB100A3D516 /* ProfilePost.swift */,
+			);
+			path = PostItems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE133DB027979D4800A3D516 /* ContentView.swift in Sources */,
+				CE133DB027979D4800A3D516 /* HomePage.swift in Sources */,
+				CE133DC627990A4300A3D516 /* CreateStory.swift in Sources */,
+				CE116319279EBE1600B99602 /* TwoImagePost.swift in Sources */,
 				CE133DAE27979D4800A3D516 /* FaceBookAppApp.swift in Sources */,
+				CE133DCC27990AB100A3D516 /* ProfilePost.swift in Sources */,
+				CE133DC32798F99500A3D516 /* PostItem.swift in Sources */,
+				CE133DC12798F4BB00A3D516 /* StoryItem.swift in Sources */,
+				CE133DBF2798B4F900A3D516 /* RoomItem.swift in Sources */,
+				CE133DC927990A8100A3D516 /* CreateRoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FaceBookApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LZ5UZD89X3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +374,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FaceBookApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LZ5UZD89X3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
